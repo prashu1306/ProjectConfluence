@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".FAQs">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbaraccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbaraccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="7dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"></android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAIL"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="#ffffff"
+                android:text="Substantially connected with all the regions of the country by train routes, Rourkela is situated on the Howrah-Nagpur- Mumbai line and as well as on the Ranchi-Bhubaneswar line. Regular trains from the major cities of the country to Rourkela has made it easily accessible via Railways."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROAD"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="#ffffff"
+                android:text="There are no regular flights from other major cities of the country to Rourkela but the nearest airport is Ranchi airport which is 140 km away and can be reached via rail or road. Rourkela is connected to several towns of Odisha via State Highway No.10 and National Highway No.23. Several buses ply between Rourkela and the major cities of the state which includes Bhubaneswar, Puri etc."  />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="20dp"
+                android:text="Rourkela railway station is situated 7km away from the NIT campus and can be easily reached via a multitude of local transportation facilities. Autos and OLA cabs are available all round the clock at nominal prices. The auto fare is fixed at 120 INR. Moreover, the conveyance is also available from the bus terminals with the fares ranging between 100-120 INR."/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_details">
+  <android.support.v4.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_margin="16dp"
+         android:id="@+id/linearlayoutabout">
+
+         <TextView
+             android:id="@+id/abouttext"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="This event consists of three inter-connected rounds which are meant to test the logic building, strategy making and critical thinking of the participants. Teams of 3 need to register for this event."
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Round 1 :"
+             android:layout_marginTop="10dp"
+             android:textSize="25dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_bold" />
+         <TextView
+             android:id="@+id/abouttext2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Elimination/Shortlisting round."
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Participants in teams of three will compete against one another in a pen football league."
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Round 2 :"
+             android:layout_marginTop="10dp"
+             android:textSize="25dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_bold" />
+         <TextView
+             android:id="@+id/abouttext5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Teams selected from round one will be given an hour to complete certain logical and strategic tasks."
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Teams which manage to complete the tasks within the Rush Hour qualify for the next round."
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext7"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Round 3 :"
+             android:layout_marginTop="10dp"
+             android:textSize="25dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_bold" />
+         <TextView
+             android:id="@+id/abouttext8"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Teams qualified from round two will participate in an auction to buy certain products to find the optimal solution for the problem statement to be given on the spot."
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext9"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="PRIZES WORTH 10K"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext10"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Winner: 3K Cash"
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+         <TextView
+             android:id="@+id/abouttext11"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Other prizes to be won in different rounds : Teeshood Shirts, Food Coupons and many more"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:fontFamily="@font/quicksand_light" />
+
+     </LinearLayout>
+
+  </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

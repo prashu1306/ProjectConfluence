@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_details">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/linearlayoutjudging">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge1"
+            android:text="RULES:"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="30dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge2"
+            android:text="Round 1:"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge3"
+            android:text="Participants will be in a team of three and they will compete against other teams in a pen-football league consisting of 5 groups."
+            android:fontFamily="@font/quicksand_light"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge4"
+            android:text="Top two teams from each group will qualify for round two. "
+            android:fontFamily="@font/quicksand_light"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge5"
+            android:text="For rules of the pen-football game refer to the rules attached here. "
+            android:fontFamily="@font/quicksand_light"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge6"
+            android:text="Round 2:"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge7"
+            android:text="Teams will be completing certain number of tasks within an hour."
+            android:fontFamily="@font/quicksand_light"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge8"
+            android:text="Most basic rule will be the time limit and each task having its minimal conditions applied.  "
+            android:fontFamily="@font/quicksand_light"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge9"
+            android:text="There will also be a bonus task for those teams which complete a certain task within the assigned time limit. "
+            android:fontFamily="@font/quicksand_light"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge10"
+            android:text="Round 3:"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtjudge11"
+            android:text="The rules for this round would be instructed on the spot."
+            android:fontFamily="@font/quicksand_light"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

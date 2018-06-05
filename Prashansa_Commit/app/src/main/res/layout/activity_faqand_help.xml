@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FaqandHelp"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarfaqhelp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Help|FAQs"></android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:id="@+id/cdview"
+        >
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="16dp"
+        android:text="Accessibility"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cdview1">
+
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:text="Hospitality"
+                android:elevation="16dp"
+                android:gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cdview2">
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Frequently Asked Questions"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:elevation="16dp"
+        android:gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+  <!--  <View
+        android:layout_height="1dp"
+        android:layout_width="wrap_content"
+        android:background="#cccccc"
+        android:layout_margin="2dp"
+        />-->
+    </LinearLayout>
+</LinearLayout>
+
